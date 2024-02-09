@@ -1,1 +1,14 @@
 /* add your styles here */
+*{
+    text-align: center;
+    box-sizing: border-box;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    gap:10px;
+}
+img{
+    height: 50vw;
+    width: 50vw;
+}
